@@ -96,6 +96,11 @@ Git branch
 
 ```
 
+Build the APK
+```
+flutter build apk --release
+```
+
 
 Build DEV APK
 ```
