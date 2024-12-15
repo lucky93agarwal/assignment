@@ -158,24 +158,24 @@ git config --global --add --bool push.autoSetupRemote true
 To run the unit tests, follow these steps:
 
 Step 1. Navigate to the test Directory :
-Make sure you're in the root of the project and navigate to the test folder where the test files are located.
+- Make sure you're in the root of the project and navigate to the test folder where the test files are located.
 ```
 cd test
 ```
 Step 2. Run the Unit Tests
-To run the unit tests for your Flutter project, run the following command:
+- To run the unit tests for your Flutter project, run the following command:
 ```
 flutter test
 ```
 Step 3. Running Specific Test Files :
-If you want to run a specific test file (e.g., login_controller_test.dart), you can use the following command:
+- If you want to run a specific test file (e.g., login_controller_test.dart), you can use the following command:
 ```
 flutter test test/controllers/login_controller_test.dart
 ```
 This will automatically detect and run all the test files inside the test directory and output the results to the terminal.
 
-Step 4. Viewing Test Results
-   After running the tests, the terminal will display the results, including whether the tests passed or failed. If a test fails, the terminal will show the error message that caused the failure.
+Step 4. Viewing Test Results :
+- After running the tests, the terminal will display the results, including whether the tests passed or failed. If a test fails, the terminal will show the error message that caused the failure.
 
 # Additional Information
 - Debugging
