@@ -153,6 +153,41 @@ Set Upsetream
 ```
 git config --global --add --bool push.autoSetupRemote true
 ```
+
+# Running Unit Tests
+To run the unit tests, follow these steps:
+
+Step 1. Navigate to the test Directory :
+Make sure you're in the root of the project and navigate to the test folder where the test files are located.
+```
+cd test
+```
+Step 2. Run the Unit Tests
+To run the unit tests for your Flutter project, run the following command:
+```
+flutter test
+```
+Step 3. Running Specific Test Files :
+If you want to run a specific test file (e.g., login_controller_test.dart), you can use the following command:
+```
+flutter test test/controllers/login_controller_test.dart
+```
+This will automatically detect and run all the test files inside the test directory and output the results to the terminal.
+
+Step 4. Viewing Test Results
+   After running the tests, the terminal will display the results, including whether the tests passed or failed. If a test fails, the terminal will show the error message that caused the failure.
+
+# Additional Information
+- Debugging
+If you encounter any issues, you can debug the application using the flutter run command with the --debug flag for more detailed logs:
+```
+flutter run --debug
+```
+You can also use flutter analyze to check for any issues with the project setup or code quality:
+```
+flutter analyze
+```
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
@@ -163,3 +198,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Visitors Count
+
+<img align="left" src = "https://profile-counter.glitch.me/assignment/count.svg" alt ="Loading">
